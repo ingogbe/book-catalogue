@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/catalogue"
+            android:icon="@drawable/ic_bookshelf"
+            android:title="Catalogue" />
+        <item
+            android:id="@+id/read_barcode"
+            android:icon="@drawable/ic_barcode"
+            android:title="Read Barcode" />
+        <item
+            android:id="@+id/manual_insert"
+            android:icon="@drawable/ic_insert_file"
+            android:title="Manual Insert" />
+    </group>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/donate"
+                android:icon="@drawable/ic_donate"
+                android:title="Donate" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/ic_information"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
